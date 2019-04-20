@@ -1,0 +1,56 @@
+body{background: black;
+	font-family: 'Pangolin', cursive;
+}
+input{border: none; font-size:16px;
+	font-family: 'Pangolin', cursiveo;
+}
+#card{width: 480px;
+	height: 320px;
+	background: white;
+	position:absolute;
+	left:32%;
+	top:27%;
+	}
+#contenido1{width:50%;
+	height:20%;
+	float:left;
+}
+#p1{margin:25px 10px 10px 10px;}
+#contenido2{width:50%;
+	height:20%;
+	float:right;
+	background: url(http://assets.breatheco.de/apis/img/icon/4geeks.png) 95% center/20% no-repeat;
+}
+#contenido3{width:50%;
+	height:60%;
+	float:left;
+}
+#p3{margin:10px 10px 10px 10px;
+	text-align: justify;
+}
+#contenido4{width:50%;
+	height:60%;
+	float:right;
+}
+#contenido5{width:100%;
+	height:20%;
+	text-align:center;
+	vertical-align:middle;
+}
+.boton{background-color:rgb(212,212,212);
+	border: 3px solid;
+	border-color:rgb(140,140,140) rgb(212,212,212) rgb(212,212,212) rgb(140,140,140);
+	padding:2px;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+}
+.boton:active{background-color: rgb(140,140,140);
+	border-color:rgb(212,212,212) rgb(140,140,140) rgb(140,140,140) rgb(212,212,212);	
+}
+td{border-bottom: 1px solid gray
+}
+table{width:96%;margin:2%;
+}
+i{float:right
+}
